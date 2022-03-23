@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/broadsword/iron_broadsword",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/shortsword/iron_shortsword",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/longsword/iron_longsword",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/battleaxe/iron_battleaxe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/waraxe/iron_waraxe",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/broadsword/emeraldite_broadsword",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/shortsword/emeraldite_shortsword",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/longsword/emeraldite_longsword",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/battleaxe/emeraldite_battleaxe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/waraxe/emeraldite_waraxe",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

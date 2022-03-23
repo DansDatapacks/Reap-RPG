@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:apple",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Yellow Apple\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Rare\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"Food\",\"color\":\"dark_gray\",\"italic\":false}']},CustomModelData:4150002,stat_item:\"true\",item_type:\"food\",food:\"true\",health_regen:10,rarity:\"rare\",reap_id:\"yellow_apple\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

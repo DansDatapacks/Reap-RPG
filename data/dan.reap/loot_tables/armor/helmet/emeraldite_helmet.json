@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_helmet",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Emeraldite Helm\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Uncommon\",\"color\":\"green\",\"italic\":false}'],color:7929687},Unbreakable:1b,HideFlags:63,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"armor\",rarity:\"uncommon\",material:\"emeraldite\",weight:\"heavy\",armor_type:\"helmet\",reap_id:\"emeraldite_helmet\"}"
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "generic.max_health",
+                    "name": "base_max_health",
+                    "amount": {"min": 7, "max": 10.5},
+                    "operation": "addition",
+                    "slot": "head"
+                  },
+                  {
+                    "attribute": "generic.armor",
+                    "name": "base_armor",
+                    "amount": {"min": 6.5, "max": 10},
+                    "operation": "addition",
+                    "slot": "head"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

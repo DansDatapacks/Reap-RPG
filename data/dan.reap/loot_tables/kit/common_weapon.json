@@ -1,0 +1,59 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:weapon/broadsword/copper_broadsword",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:weapon/shortsword/copper_shortsword",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:weapon/longsword/copper_longsword",
+            "weight": 6
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:weapon/battleaxe/copper_battleaxe",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:weapon/waraxe/copper_waraxe",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:weapon/broadsword/prismarine_broadsword",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:weapon/shortsword/prismarine_shortsword",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:weapon/longsword/prismarine_longsword",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:weapon/battleaxe/prismarine_battleaxe",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:weapon/waraxe/prismarine_waraxe",
+            "weight": 4
+          }
+        ]
+      }
+    ]
+  }

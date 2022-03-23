@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Waystone\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Artifact\",\"color\":\"gold\",\"italic\":false}','{\"text\":\"Use to Teleport to your set Point\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"Hold Sneak and Use to set Point\",\"color\":\"dark_gray\",\"italic\":false}']},HideFlags:63,Unbreakable:1b,CustomModelData:4150003,loot:\"true\",stat_item:\"true\",item_type:\"artifact\",soulbound:\"true\",rarity:\"artifact\",reap_id:\"waystone\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

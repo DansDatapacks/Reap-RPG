@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Iron Leggings\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Uncommon\",\"color\":\"green\",\"italic\":false}']},Unbreakable:1b,HideFlags:63,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"armor\",rarity:\"uncommon\",material:\"iron\",weight:\"heavy\",armor_type:\"leggings\",reap_id:\"iron_leggings\"}"
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "generic.max_health",
+                    "name": "base_max_health",
+                    "amount": {"min": 6, "max": 10},
+                    "operation": "addition",
+                    "slot": "legs"
+                  },
+                  {
+                    "attribute": "generic.armor",
+                    "name": "base_armor",
+                    "amount": {"min": 7, "max": 10},
+                    "operation": "addition",
+                    "slot": "legs"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

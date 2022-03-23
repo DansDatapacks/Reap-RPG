@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#rc_lib:cow",
+    "#rc_lib:llama",
+    "minecraft:dolphin",
+    "minecraft:pig",
+    "minecraft:sheep",
+    "minecraft:wither"
+  ]
+}

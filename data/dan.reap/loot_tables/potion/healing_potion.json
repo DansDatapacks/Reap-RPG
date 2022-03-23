@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Healing Potion\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Uncommon\",\"color\":\"green\",\"italic\":false}','[{\"text\":\"\uE010\",\"color\":\"white\",\"italic\":false},{\"text\":\"+35\",\"color\":\"dark_gray\",\"italic\":false}]']},HideFlags:63,Enchantments:[{id:\"minecraft:protection\",lvl:1s}],Potion:\"minecraft:thick\",CustomPotionColor:16058984,health_regen:35,potion:\"true\",potion_type:\"health\",stat_item:\"true\",item_type:\"potion\",rarity:\"uncommon\",reap_id:\"healing_potion\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

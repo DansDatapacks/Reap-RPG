@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:white_dye",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Pink Butterfly\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Ingredient\",\"color\":\"dark_gray\",\"italic\":false}']},CustomModelData:4150101,rarity:\"common\",reap_type:\"butterfly\",reap_id:\"pink_butterfly\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

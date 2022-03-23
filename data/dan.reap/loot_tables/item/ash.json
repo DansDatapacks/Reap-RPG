@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:light_gray_dye",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Ash\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Junk\",\"color\":\"dark_gray\",\"italic\":false}']},rarity:\"common\",reap_id:\"ash\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

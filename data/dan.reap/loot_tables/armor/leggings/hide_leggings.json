@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Hide Leggings\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}']},Unbreakable:1b,HideFlags:63,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"armor\",rarity:\"common\",material:\"hide\",weight:\"light\",armor_type:\"leggings\",reap_id:\"hide_leggings\"}"
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "generic.max_health",
+                    "name": "base_max_health",
+                    "amount": {"min": 0, "max": 2},
+                    "operation": "addition",
+                    "slot": "legs"
+                  },
+                  {
+                    "attribute": "generic.armor",
+                    "name": "base_armor",
+                    "amount": {"min": 1, "max": 2},
+                    "operation": "addition",
+                    "slot": "legs"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

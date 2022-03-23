@@ -1,0 +1,31 @@
+{
+  "values": [
+    "#rc_lib:256",
+    "#rc_lib:448",
+    "#rc_lib:575",
+    "#rc_lib:895",
+    "#rc_lib:cat",
+    "#rc_lib:fly",
+    "#rc_lib:skeleton",
+    "#rc_lib:slime",
+    "#rc_lib:zombie",
+    "minecraft:blaze",
+    "minecraft:cod",
+    "minecraft:creeper",
+    "minecraft:elder_guardian",
+    "minecraft:ender_dragon",
+    "minecraft:enderman",
+    "minecraft:ghast",
+    "minecraft:giant",
+    "minecraft:guardian",
+    "minecraft:panda",
+    "minecraft:phantom",
+    "minecraft:pufferfish",
+    "minecraft:ravager",
+    "minecraft:squid",
+    "minecraft:shulker",
+    "minecraft:tropical_fish",
+    "minecraft:turtle",
+    "minecraft:wolf"
+  ]
+}

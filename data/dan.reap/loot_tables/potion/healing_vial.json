@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Healing Vial\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"\uE010\",\"color\":\"white\",\"italic\":false},{\"text\":\"+15\",\"color\":\"dark_gray\",\"italic\":false}]']},HideFlags:63,Enchantments:[{id:\"minecraft:protection\",lvl:1s}],Potion:\"minecraft:thick\",CustomPotionColor:16058984,stat_item:\"true\",health_regen:15,potion:\"true\",potion_type:\"health\",item_type:\"potion\",rarity:\"common\",reap_id:\"healing_vial\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

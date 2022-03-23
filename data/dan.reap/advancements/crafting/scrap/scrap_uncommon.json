@@ -1,0 +1,46 @@
+{
+	"criteria": {
+		"uncommon sword": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_uncommon_sword"
+		  }
+		},
+		"uncommon axe": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_uncommon_axe"
+		  }
+		},
+		"uncommon iron boots": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_uncommon_armor_boots_iron"
+		  }
+		},
+		"uncommon iron leggings": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_uncommon_armor_leggings_iron"
+		  }
+		},
+		"uncommon iron chestplate": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_uncommon_armor_chestplate_iron"
+		  }
+		},
+		"uncommon iron helmet": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_uncommon_armor_helmet_iron"
+		  }
+		}
+	  },
+	"rewards": {
+		"function": "dan.reap:item_handling/loot_handling/scrap/uncommon_queue"
+	},
+    "requirements": [
+        ["uncommon sword", "uncommon axe", "uncommon iron boots", "uncommon iron leggings", "uncommon iron chestplate", "uncommon iron helmet"]
+    ]
+}

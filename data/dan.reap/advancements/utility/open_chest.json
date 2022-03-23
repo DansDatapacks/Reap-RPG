@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "open_chest": {
+          "trigger": "minecraft:item_used_on_block",
+          "conditions": {
+            "location": {
+              "block": {
+                "block": "minecraft:chest"
+              }
+            }
+          }
+        }
+    },
+    "requirements": [
+        [
+            "open_chest"
+        ]
+    ],
+    "rewards": {
+        "function": "dan.main:on_event/on_chest_open"
+    }
+}

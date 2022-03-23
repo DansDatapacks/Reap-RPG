@@ -1,0 +1,9 @@
+execute if block ~ ~ ~ #rc_lib:standing run function rc_lib:special/branch2/standing
+execute if block ~ ~ ~ #rc_lib:walled run function rc_lib:special/branch2/signs
+execute if block ~ ~ ~ #rc_lib:ground_heads run function rc_lib:special/branch2/head
+execute if block ~ ~ ~ #rc_lib:wall_heads run function rc_lib:special/branch2/wall_heads
+execute if block ~ ~ ~ #rc_lib:tiny_cube run function rc_lib:special/branch2/tiny
+execute if block ~ ~ ~ #rc_lib:anvil run function rc_lib:special/branch2/anvils
+execute if block ~ ~ ~ minecraft:ladder run function rc_lib:special/branch2/ayigoupandigodown
+execute if block ~ ~ ~ minecraft:end_portal_frame run function rc_lib:special/branch2/portal_frame
+execute if block ~ ~ ~ minecraft:nether_portal run function rc_lib:special/branch2/portal

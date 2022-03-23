@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Steel Leggings\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Fabled\",\"color\":\"#FFB6C1\",\"italic\":false}'],color:12226190},Unbreakable:1b,HideFlags:63,CustomModelData:415000403,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"armor\",rarity:\"fabled\",material:\"steel\",weight:\"heavy\",armor_type:\"leggings\",reap_id:\"steel_leggings\"}"
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "generic.max_health",
+                    "name": "base_max_health",
+                    "amount": {"min": 18, "max": 26},
+                    "operation": "addition",
+                    "slot": "legs"
+                  },
+                  {
+                    "attribute": "generic.armor",
+                    "name": "base_armor",
+                    "amount": {"min": 13.5, "max": 19},
+                    "operation": "addition",
+                    "slot": "legs"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

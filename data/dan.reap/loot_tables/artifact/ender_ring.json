@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Ender Ring\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Artifact\",\"color\":\"gold\",\"italic\":false}','{\"text\":\"Allows bearer to teleport 10 blocks ahead\",\"color\":\"dark_gray\",\"italic\":false}']},HideFlags:48,CustomModelData:4151000,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"artifact\",soulbound:\"true\",rarity:\"artifact\",mana_cost:30,stamina_cost:150,tome:\"true\",tome_type:\"ender_ring\",reap_id:\"ender_ring\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

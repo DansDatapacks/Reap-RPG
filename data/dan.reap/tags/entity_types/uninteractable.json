@@ -1,0 +1,15 @@
+{
+  "values": [
+    "minecraft:player",
+    "minecraft:painting",
+    "minecraft:arrow",
+    "minecraft:armor_stand",
+    "minecraft:item_frame",
+    "minecraft:experience_orb",
+    "minecraft:area_effect_cloud",
+    "minecraft:item",
+    "minecraft:firework_rocket",
+    "minecraft:minecart",
+    "minecraft:chest_minecart"
+  ]
+}

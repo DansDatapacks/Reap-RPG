@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+        "rolls": 1,
+        "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Loot Chest\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Mythical\",\"color\":\"dark_red\",\"italic\":false}','{\"text\":\"Throw to open\",\"color\":\"dark_gray\",\"italic\":false}']},SkullOwner:{Id:[I;-1505539943,1722959920,-1243426609,-834130136],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFmODY4NzYxYTVjOTEzOWRhMWZlYzY3MjZlMTY1NTkyOTQyOWE0M2FiOTcyYzgxMThiYTI2YjkyNTVlN2MifX19\"}]}},rarity:\"mythical\",reap_id:\"loot_chest\",loot:\"true\"}"
+            }
+          ]
+        }
+        ]
+        }
+    ]
+}

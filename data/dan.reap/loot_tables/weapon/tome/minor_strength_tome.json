@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Minor Strength Tome\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Summon Cloud of Strength\",\"color\":\"dark_gray\",\"italic\":false}','[{\"text\":\"\uE011\",\"color\":\"white\",\"italic\":false},{\"text\":\"-15\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"\uE018\",\"color\":\"white\",\"italic\":false},{\"text\":\"1s\",\"color\":\"dark_gray\",\"italic\":false}]']},Unbreakable:1,HideFlags:63,CustomModelData:4150100,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"magic_weapon\",rarity:\"common\",tome_type:\"strength\",tome_seconds:1,stamina_cost:100,mana_cost:15,tome_radius:1f,tome:\"true\",reap_id:\"tome\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

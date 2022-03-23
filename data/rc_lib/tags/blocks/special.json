@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#rc_lib:slabs",
+    "#rc_lib:branch1",
+    "#rc_lib:redstone",
+    "#rc_lib:connect",
+    "#rc_lib:branch2",
+    "#rc_lib:plants",
+    "#rc_lib:branch3"
+  ]
+}

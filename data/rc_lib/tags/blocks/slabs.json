@@ -1,0 +1,15 @@
+{
+  "values": [
+    "#rc_lib:half_slabs",
+    "#rc_lib:carpets",
+    "#rc_lib:rails",
+    "#rc_lib:farm",
+    "#rc_lib:circuit",
+    "#rc_lib:magic",
+    "minecraft:snow",
+    "minecraft:stonecutter",
+    "minecraft:campfire",
+    "minecraft:daylight_detector",
+    "minecraft:tripwire"
+  ]
+}

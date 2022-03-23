@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Mini Tnt\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Rare\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"Throw to spark and Explode a small area\",\"color\":\"dark_gray\",\"italic\":false}']},SkullOwner:{Id:[I;249907759,-23771683,-1744031493,-1481368115],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJkMDU2ZThmYzVhNTBkYWQxNzRjYzc4ZjU1ZmQwODBiMjk0Y2QyMmUwN2MxMzQ3OTAyMDVjOGY0YWJhZWMyYiJ9fX0=\"}]}},rarity:\"rare\",reap_id:\"mini_tnt\",bomb:\"true\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

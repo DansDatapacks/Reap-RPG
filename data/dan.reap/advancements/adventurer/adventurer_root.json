@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Adventurer's Guide",
+            "color": "white"
+        },
+        "description": {
+            "text": "Tips And Skills Any Adventurer Should Have",
+            "color": "gray"
+        },
+        "icon": {
+			"item": "minecraft:firework_star",
+			"nbt": "{display:{Name:'{\"text\":\"Backpack\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}']},Explosion:{Type:0,Colors:[I;10900248]},HideFlags:63,CustomModelData:4150001000,soulbound:\"true\",rarity:\"common\",backpack:\"true\",reap_id:\"backpack\"}"
+		},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/grass_path_top.png"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+          }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ]
+}

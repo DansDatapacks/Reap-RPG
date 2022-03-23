@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#rc_lib:standing",
+    "#rc_lib:walled",
+    "#rc_lib:ground_heads",
+    "#rc_lib:wall_heads",
+    "#rc_lib:tiny_cube",
+    "#rc_lib:anvil",
+    "minecraft:ladder",
+    "minecraft:end_portal_frame",
+    "minecraft:nether_portal"
+  ]
+}

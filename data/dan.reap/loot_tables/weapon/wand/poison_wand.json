@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Poison Cloud Wand\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Cast a Poison\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"Cloud on Impact\",\"color\":\"dark_gray\",\"italic\":false}','[{\"text\":\"\uE011\",\"color\":\"white\",\"italic\":false},{\"text\":\"-8\",\"color\":\"dark_gray\",\"italic\":false}]']},Unbreakable:1,HideFlags:63,CustomModelData:4150202,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"magic_weapon\",rarity:\"common\",tome_type:\"poison_wand\",mana_cost:15,stamina_cost:80,damage_strength:10,tome:\"true\",reap_id:\"tome\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

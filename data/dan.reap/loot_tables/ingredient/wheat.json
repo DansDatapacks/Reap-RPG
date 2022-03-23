@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wheat",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Wheat\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Ingredient\",\"color\":\"dark_gray\",\"italic\":false}']},rarity:\"common\",reap_id:\"wheat\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

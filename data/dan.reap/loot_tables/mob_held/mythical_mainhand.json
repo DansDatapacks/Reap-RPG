@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/broadsword/obsidian_broadsword",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/shortsword/obsidian_shortsword",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/longsword/obsidian_longsword",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/battleaxe/obsidian_battleaxe",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/waraxe/obsidian_waraxe",
+          "weight": 10
+        }
+      ],
+      "conditions": [
+          {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+          }
+      ]
+    }
+  ]
+}

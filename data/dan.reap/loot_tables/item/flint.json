@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Flint\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Uncommon\",\"color\":\"green\",\"italic\":false}','{\"text\":\"Can be used to spark a fire and in crafting\",\"color\":\"dark_gray\",\"italic\":false}']},HideFlags:48,rarity:\"uncommon\",reap_id:\"flint\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

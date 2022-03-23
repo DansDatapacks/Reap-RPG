@@ -1,0 +1,3 @@
+execute if block ~ ~ ~ minecraft:bell[attachment=floor] unless block ~ ~ ~ minecraft:bell[facing=north] unless block ~ ~ ~ minecraft:bell[facing=south] run function rc_lib:special/branch3/bell/z
+execute if block ~ ~ ~ minecraft:bell[attachment=floor] unless block ~ ~ ~ minecraft:bell[facing=east] unless block ~ ~ ~ minecraft:bell[facing=west] run function rc_lib:special/branch3/bell/x
+execute unless block ~ ~ ~ minecraft:bell[attachment=floor] run function rc_lib:special/branch3/bell/hang

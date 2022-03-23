@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/shortsword/iron_shortsword",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/waraxe/iron_waraxe",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/shortsword/emeraldite_shortsword",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/waraxe/emeraldite_waraxe",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:shield/prismarine_shield",
+          "weight": 20
+        }
+      ],
+      "conditions": [
+          {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+          }
+      ]
+    }
+  ]
+}

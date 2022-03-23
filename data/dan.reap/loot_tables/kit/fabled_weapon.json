@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/broadsword/steel_broadsword",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/shortsword/steel_shortsword",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/longsword/steel_longsword",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/battleaxe/steel_battleaxe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/waraxe/steel_waraxe",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/broadsword/silver_broadsword",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/shortsword/silver_shortsword",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/longsword/silver_longsword",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/battleaxe/silver_battleaxe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/waraxe/silver_waraxe",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

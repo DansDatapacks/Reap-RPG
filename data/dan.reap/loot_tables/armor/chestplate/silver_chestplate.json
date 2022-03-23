@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Silver Chestplate\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Fabled\",\"color\":\"#FFB6C1\",\"italic\":false}'],color:13958911},Unbreakable:1b,HideFlags:63,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"armor\",rarity:\"fabled\",material:\"silver\",weight:\"heavy\",armor_type:\"chestplate\",reap_id:\"silver_chestplate\"}"
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "generic.max_health",
+                    "name": "base_max_health",
+                    "amount": {"min": 20.5, "max": 28},
+                    "operation": "addition",
+                    "slot": "chest"
+                  },
+                  {
+                    "attribute": "generic.armor",
+                    "name": "base_armor",
+                    "amount": {"min": 21.5, "max": 30},
+                    "operation": "addition",
+                    "slot": "chest"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

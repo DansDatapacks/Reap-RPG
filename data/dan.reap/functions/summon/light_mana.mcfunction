@@ -1,0 +1,4 @@
+# summon light mana crystal
+
+#summon base with edit process tag
+summon minecraft:slime ~ ~0.8 ~ {Size:0,NoGravity:1b,NoAI:1b,Silent:1b,ActiveEffects:[{Id:14b,Amplifier:2b,Duration:2000000,ShowParticles:0b}],Tags:["dan.spawner","dan.mob_spawner","dan.mana_crystal","dan.light_mana","hb.death_detect","global.custom_mob"],CustomName:'{"text":"Light Mana Crystal"}',Passengers:[{id:"minecraft:area_effect_cloud",Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:'"Death Detect AEC"',Tags:["global.ignore","hb.death_detect_aec","dan.dd_light_mana"]}],Attributes:[{Name:"minecraft:generic.max_health",Base:2.0d}]}

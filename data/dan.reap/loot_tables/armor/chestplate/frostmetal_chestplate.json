@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Frostmetal Chestplate\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Rare\",\"color\":\"blue\",\"italic\":false}'],color:52479},Unbreakable:1b,HideFlags:63,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"armor\",rarity:\"rare\",material:\"frostmetal\",weight:\"heavy\",armor_type:\"chestplate\",reap_id:\"frostmetal_chestplate\"}"
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "generic.max_health",
+                    "name": "base_max_health",
+                    "amount": {"min": 14.5, "max": 20},
+                    "operation": "addition",
+                    "slot": "chest"
+                  },
+                  {
+                    "attribute": "generic.armor",
+                    "name": "base_armor",
+                    "amount": {"min": 15.5, "max": 22},
+                    "operation": "addition",
+                    "slot": "chest"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

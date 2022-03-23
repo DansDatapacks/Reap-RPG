@@ -1,0 +1,8 @@
+{
+    "values": [
+        "math:on_event/on_install",
+        "rc_lib:setup",
+        "dan.main:on_event/on_load",
+        "healthindications:on_event/on_load"
+    ]
+}

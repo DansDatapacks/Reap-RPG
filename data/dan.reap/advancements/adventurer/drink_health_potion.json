@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text": "Heal Up",
+            "color": "white"
+        },
+        "description": {
+            "text": "Drink A Health Potion",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{display:{Name:'{\"text\":\"Healing Vial\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"\uE010\",\"color\":\"white\",\"italic\":false},{\"text\":\"+15\",\"color\":\"dark_gray\",\"italic\":false}]']},HideFlags:63,Enchantments:[{id:\"minecraft:protection\",lvl:1s}],Potion:\"minecraft:thick\",CustomPotionColor:16058984,CustomModelData:4150001,stat_item:\"true\",health_regen:15,potion:\"true\",potion_type:\"health\",item_type:\"potion\",rarity:\"common\",reap_id:\"healing_vial\"}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+          }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "function": "dan.reap:utility/give_loot_chest"
+    },
+    "parent": "dan.reap:adventurer/forage_berries"
+}

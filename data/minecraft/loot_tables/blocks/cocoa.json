@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "conditions": [
+                  {
+                    "condition": "minecraft:block_state_property",
+                    "block": "minecraft:cocoa",
+                    "properties": {
+                      "age": "2"
+                    }
+                  }
+                ],
+                "count": 3
+              }
+            ],
+            "name": "dan.reap:ingredient/cocoa_powder"
+          }
+        ]
+      }
+    ]
+  }

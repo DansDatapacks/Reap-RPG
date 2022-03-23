@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Aetherian Ward\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Artifact\",\"color\":\"gold\",\"italic\":false}','{\"text\":\"Protects the bearer from withering\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"and weakens nearby withered mobs\",\"color\":\"dark_gray\",\"italic\":false}']},HideFlags:48,CustomModelData:4150001,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"artifact\",soulbound:\"true\",rarity:\"artifact\",reap_id:\"aetherian_ward\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

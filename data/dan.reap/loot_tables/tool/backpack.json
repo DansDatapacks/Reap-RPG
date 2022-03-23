@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Backpack\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}']},Explosion:{Type:0,Colors:[I;10900248]},HideFlags:63,CustomModelData:4151000,soulbound:\"true\",rarity:\"common\",backpack:\"true\",reap_id:\"backpack\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

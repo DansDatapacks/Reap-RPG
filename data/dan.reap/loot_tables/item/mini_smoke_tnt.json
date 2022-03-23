@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Mini Smoke Tnt\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Throw to spark and release Smoke\",\"color\":\"dark_gray\",\"italic\":false}']},SkullOwner:{Id:[I;-1306881121,395069695,-1439782090,1560135583],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk1YWNhNzJkY2NlMTI5ODQ3NTM5OGZiN2FkZmY4NDQ3YzlhNjcwZTZjZjY0ZGQzOTMzYmJjOTQ5MThlOTkifX19\"}]}},rarity:\"common\",reap_id:\"mini_smoke_tnt\",bomb:\"true\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

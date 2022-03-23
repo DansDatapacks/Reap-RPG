@@ -1,0 +1,9 @@
+execute if block ~ ~ ~ #rc_lib:stairs run function rc_lib:special/branch1/stairs
+execute if block ~ ~ ~ #rc_lib:doors run function rc_lib:special/branch1/doors
+execute if block ~ ~ ~ #rc_lib:trapdoors[open=true] run function rc_lib:special/branch1/trapdoors_open
+execute if block ~ ~ ~ #rc_lib:trapdoors[open=false] run function rc_lib:special/branch1/trapdoors_closed
+execute if block ~ ~ ~ #rc_lib:fence_gates run function rc_lib:special/branch1/gates
+execute if block ~ ~ ~ #rc_lib:chests run function rc_lib:special/branch1/chests
+execute if block ~ ~ ~ #rc_lib:beds run function rc_lib:special/branch1/beds
+execute if block ~ ~ ~ #rc_lib:torches run function rc_lib:special/branch1/torch
+execute if block ~ ~ ~ #rc_lib:wall_torches run function rc_lib:special/branch1/wall_torches

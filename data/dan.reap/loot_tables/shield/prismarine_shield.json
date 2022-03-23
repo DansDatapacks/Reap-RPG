@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shield",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Prismarine Shield\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}']},Unbreakable:1,HideFlags:63,CustomModelData:4150002,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"armor\",rarity:\"common\",material:\"prismarine\",shield:\"true\",reap_id:\"prismarine_shield\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

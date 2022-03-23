@@ -1,0 +1,54 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:shield/prismarine_shield",
+            "weight": 16
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:armor/helmet/iron_helmet",
+            "weight": 24
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:armor/chestplate/iron_chestplate",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:armor/leggings/iron_leggings",
+            "weight": 12
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:armor/boots/iron_boots",
+            "weight": 24
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:armor/helmet/emeraldite_helmet",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:armor/chestplate/emeraldite_chestplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:armor/leggings/emeraldite_leggings",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:armor/boots/emeraldite_boots",
+            "weight": 4
+          }
+        ]
+      }
+    ]
+  }

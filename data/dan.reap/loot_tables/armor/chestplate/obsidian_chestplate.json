@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Obsidian Chestplate\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Mythical\",\"color\":\"dark_red\",\"italic\":false}'],color:1775657},Unbreakable:1b,HideFlags:63,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"armor\",rarity:\"mythical\",material:\"obsidian\",weight:\"heavy\",armor_type:\"chestplate\",reap_id:\"obsidian_chestplate\"}"
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "generic.max_health",
+                    "name": "base_max_health",
+                    "amount": {"min": 30, "max": 43},
+                    "operation": "addition",
+                    "slot": "chest"
+                  },
+                  {
+                    "attribute": "generic.armor",
+                    "name": "base_armor",
+                    "amount": {"min": 32, "max": 44},
+                    "operation": "addition",
+                    "slot": "chest"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "values": [
+	"#rc_lib:cube",
+	"#rc_lib:minecart",
+    "#rc_lib:mobs",
+    "minecraft:armor_stand",
+    "minecraft:boat",
+    "minecraft:end_crystal",
+    "minecraft:fireball",
+    "minecraft:item_frame",
+    "minecraft:leash_knot",
+    "minecraft:painting",
+    "minecraft:shulker_bullet"
+  ]
+}

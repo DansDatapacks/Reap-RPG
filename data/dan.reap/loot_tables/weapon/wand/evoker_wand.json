@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Evoker Wand\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Summon an Evoker\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"Fang on Impact\",\"color\":\"dark_gray\",\"italic\":false}','[{\"text\":\"\uE011\",\"color\":\"white\",\"italic\":false},{\"text\":\"-3\",\"color\":\"dark_gray\",\"italic\":false}]']},Unbreakable:1,HideFlags:63,CustomModelData:4150203,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"magic_weapon\",rarity:\"common\",tome_type:\"evoker_wand\",mana_cost:3,stamina_cost:30,damage_strength:8,tome:\"true\",reap_id:\"tome\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

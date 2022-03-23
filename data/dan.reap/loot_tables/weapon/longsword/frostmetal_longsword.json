@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Frostmetal Longsword\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Rare\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"Two-Handed\",\"color\":\"dark_gray\",\"italic\":false}']},Unbreakable:1,HideFlags:63,CustomModelData:4150102,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"melee_weapon\",rarity:\"rare\",material:\"frostmetal\",weapon_type:\"longsword\",two_handed:\"true\",reap_id:\"frostmetal_longsword\"}"
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "generic.attack_damage",
+                    "name": "base_attack_damage",
+                    "amount": {"min": 36, "max": 40},
+                    "operation": "addition",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "attribute": "generic.attack_speed",
+                    "name": "base_attack_speed",
+                    "amount": {"min": 1, "max": 2},
+                    "operation": "addition",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

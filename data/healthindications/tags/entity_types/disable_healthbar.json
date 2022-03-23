@@ -1,0 +1,8 @@
+{
+    "values": [
+        "#healthindications:uninteractable",
+        "minecraft:wither",
+        "minecraft:ender_dragon",
+        "#healthindications:bossbars"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:witch",
+      "minecraft:illusioner",
+      "minecraft:evoker",
+
+      "minecraft:husk",
+      "minecraft:stray",
+
+      "minecraft:blaze",
+      "minecraft:wither_skeleton",
+
+      "minecraft:zombified_piglin",
+
+      "minecraft:ravager"
+    ]
+}

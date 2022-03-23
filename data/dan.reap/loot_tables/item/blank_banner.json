@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:white_banner",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Blank Banner Canvas\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Rare\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"Apply your own patterns to this canvas to re-banner your colony.\",\"color\":\"dark_gray\",\"italic\":false}']},HideFlags:48,rarity:\"rare\",reap_id:\"blank_banner\",\"banner\":\"true\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

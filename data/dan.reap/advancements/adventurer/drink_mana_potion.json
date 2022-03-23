@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text": "Regen Mana",
+            "color": "white"
+        },
+        "description": {
+            "text": "Drink A Mana Potion",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{display:{Name:'{\"text\":\"Mana Vial\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"\uE011\",\"color\":\"white\",\"italic\":false},{\"text\":\"+15\",\"color\":\"dark_gray\",\"italic\":false}]']},Potion:\"minecraft:thick\",HideFlags:63,Enchantments:[{id:\"minecraft:protection\",lvl:1s}],CustomPotionColor:10036395,CustomModelData:4150001,potion:\"true\",potion_type:\"mana\",mana_regen:15b,stat_item:\"true\",item_type:\"potion\",rarity:\"common\",reap_id:\"mana_vial\"}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+          }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "function": "dan.reap:utility/give_loot_chest"
+    },
+    "parent": "dan.reap:adventurer/forage_berries"
+}

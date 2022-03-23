@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "No Scaffolding Needed",
+            "color": "white"
+        },
+        "description": {
+            "text": "Climb Any Block By Crouching Up Against It And Looking Slightly Up",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:scaffolding"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+          }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "function": "dan.reap:utility/give_loot_chest"
+    },
+    "parent": "dan.reap:adventurer/adventurer_root"
+}

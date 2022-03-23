@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:spider",
+      "minecraft:endermite",
+      "minecraft:vex",
+
+      "minecraft:cow",
+      "minecraft:pig",
+      "minecraft:sheep",
+
+      "minecraft:salmon",
+
+      "minecraft:witch",
+
+      "minecraft:husk",
+      "minecraft:stray"
+    ]
+}

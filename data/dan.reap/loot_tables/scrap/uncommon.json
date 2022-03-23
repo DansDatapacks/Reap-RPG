@@ -1,0 +1,16 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 4,
+          "max": 16
+        },
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:valuable/gold_coin"
+          }
+        ]
+      }
+    ]
+  }

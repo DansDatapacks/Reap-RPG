@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Obsidian Skull\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Artifact\",\"color\":\"gold\",\"italic\":false}','{\"text\":\"Cancels fire damage dealt to bearer\",\"color\":\"dark_gray\",\"italic\":false}']},HideFlags:48,CustomModelData:41500010,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"artifact\",soulbound:\"true\",rarity:\"artifact\",reap_id:\"obsidian_skull\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

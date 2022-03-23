@@ -1,0 +1,44 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Silver Shortsword\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Fabled\",\"color\":\"#FFB6C1\",\"italic\":false}']},Unbreakable:1,HideFlags:63,CustomModelData:4150201,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"melee_weapon\",rarity:\"fabled\",material:\"silver\",weapon_type:\"shortsword\",reap_id:\"silver_shortsword\"}"
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "generic.attack_damage",
+                    "name": "base_attack_damage",
+                    "amount": {"min": 88, "max": 104},
+                    "operation": "addition",
+                    "slot": [
+                      "mainhand",
+                      "offhand"
+                    ]
+                  },
+                  {
+                    "attribute": "generic.attack_speed",
+                    "name": "base_attack_speed",
+                    "amount": {"min": -2.5, "max": -2},
+                    "operation": "addition",
+                    "slot": [
+                      "mainhand",
+                      "offhand"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

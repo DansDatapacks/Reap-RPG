@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Frostmetal Leggings\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Rare\",\"color\":\"blue\",\"italic\":false}'],color:52479},Unbreakable:1b,HideFlags:63,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"armor\",rarity:\"rare\",material:\"frostmetal\",weight:\"heavy\",armor_type:\"leggings\",reap_id:\"frostmetal_leggings\"}"
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "generic.max_health",
+                    "name": "base_max_health",
+                    "amount": {"min": 13.5, "max": 19},
+                    "operation": "addition",
+                    "slot": "legs"
+                  },
+                  {
+                    "attribute": "generic.armor",
+                    "name": "base_armor",
+                    "amount": {"min": 13.5, "max": 19},
+                    "operation": "addition",
+                    "slot": "legs"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

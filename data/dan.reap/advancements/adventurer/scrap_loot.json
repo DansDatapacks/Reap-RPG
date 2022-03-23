@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Scrap The Loot",
+            "color": "white"
+        },
+        "description": {
+            "text": "Use A Crafting Grid Or Sawmill To Scrap Loot For Gold",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:structure_void"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+          }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "function": "dan.reap:utility/give_loot_chest"
+    },
+    "parent": "dan.reap:adventurer/find_loot_chest"
+}

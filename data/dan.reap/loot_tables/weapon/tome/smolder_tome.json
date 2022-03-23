@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Smoldering Tome\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Uncommon\",\"color\":\"green\",\"italic\":false}','{\"text\":\"Resist Fire and\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"Burn Nearby Mobs\",\"color\":\"dark_gray\",\"italic\":false}','[{\"text\":\"\uE011\",\"color\":\"white\",\"italic\":false},{\"text\":\"-36\",\"color\":\"dark_gray\",\"italic\":false}]','[{\"text\":\"\uE018\",\"color\":\"white\",\"italic\":false},{\"text\":\"30s\",\"color\":\"dark_gray\",\"italic\":false}]']},Unbreakable:1,HideFlags:63,CustomModelData:4150100,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"magic_weapon\",rarity:\"uncommon\",tome_type:\"smolder\",tome_seconds:30,stamina_cost:250,mana_cost:36,tome_radius:0f,tome:\"true\",reap_id:\"tome\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

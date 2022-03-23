@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/tome/regeneration_tome",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/tome/strength_tome",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/tome/smolder_tome",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/wand/evoker_wand",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/wand/ice_wand",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/wand/fire_wand",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/wand/tornado_wand",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:weapon/staff/meteor_staff",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

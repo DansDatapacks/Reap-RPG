@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:chest",
+      "minecraft:barrel",
+      "#minecraft:shulker_boxes",
+      "minecraft:spawner",
+      "minecraft:furnace",
+      "minecraft:smoker",
+      "minecraft:blast_furnace",
+      "minecraft:brewing_stand",
+      "minecraft:dispenser",
+      "minecraft:dropper",
+      "minecraft:hopper",
+      "minecraft:beacon"
+    ]
+}

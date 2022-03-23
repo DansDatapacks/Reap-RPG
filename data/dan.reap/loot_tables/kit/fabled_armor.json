@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/helmet/steel_helmet",
+          "weight": 24
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/chestplate/steel_chestplate",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/leggings/steel_leggings",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/boots/steel_boots",
+          "weight": 24
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/helmet/silver_helmet",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/chestplate/silver_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/leggings/silver_leggings",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/boots/silver_boots",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

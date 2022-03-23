@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/helmet/bronze_helmet",
+          "weight": 24
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/chestplate/bronze_chestplate",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/leggings/bronze_leggings",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/boots/bronze_boots",
+          "weight": 24
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/helmet/frostmetal_helmet",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/chestplate/frostmetal_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/leggings/frostmetal_leggings",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/boots/frostmetal_boots",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

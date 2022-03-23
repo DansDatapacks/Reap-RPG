@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Cook Up Some Food",
+            "color": "white"
+        },
+        "description": {
+            "text": "Place Food On A Campfire To Cook It",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:cooked_chicken"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cooking_food": {
+          "trigger": "minecraft:item_used_on_block",
+          "conditions": {
+            "location": {
+              "block": {
+                "tag": "minecraft:campfires"
+              }
+            }
+          }
+        }
+    },
+    "requirements": [
+        [
+            "cooking_food"
+        ]
+    ],
+    "rewards": {
+        "function": "dan.reap:utility/give_loot_chest"
+    },
+    "parent": "dan.reap:adventurer/set_up_camp"
+}

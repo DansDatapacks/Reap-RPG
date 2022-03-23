@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wooden_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Bone Club\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}']},Unbreakable:1,HideFlags:63,CustomModelData:4150001,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"melee_weapon\",rarity:\"common\",material:\"bone\",weapon_type:\"club\",reap_id:\"bone_club\"}"
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "generic.attack_damage",
+                    "name": "base_attack_damage",
+                    "amount": {"min": 5, "max": 8},
+                    "operation": "addition",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "attribute": "generic.attack_speed",
+                    "name": "base_attack_speed",
+                    "amount": {"min": -2.7, "max": -2},
+                    "operation": "addition",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

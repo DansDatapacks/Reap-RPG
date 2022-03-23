@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cod",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Raw Cod\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Food\",\"color\":\"dark_gray\",\"italic\":false}']},stat_item:\"true\",item_type:\"food\",food:\"true\",health_regen:1,rarity:\"common\",reap_id:\"raw_cod\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

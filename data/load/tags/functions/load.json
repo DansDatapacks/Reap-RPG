@@ -1,0 +1,6 @@
+{
+    "values": [
+        "phi.core:internal/load",
+        "#phi.core:full_load"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "values": [
+    "#rc_lib:pressure_plates",
+    "#rc_lib:buttons",
+    "#rc_lib:pistons",
+    "minecraft:redstone_wire",
+    "minecraft:piston_head",
+    "minecraft:lever",
+    "minecraft:tripwire_hook",
+    "minecraft:hopper"
+  ]
+}

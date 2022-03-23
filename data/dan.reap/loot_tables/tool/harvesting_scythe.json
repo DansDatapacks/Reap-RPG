@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CanDestroy:[\"#dan.reap:harvestable\"],display:{Name:'{\"text\":\"Harvesting Scythe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Tool\",\"color\":\"dark_gray\",\"italic\":false}']},HideFlags:63,Unbreakable:1b,CustomModelData:4150001,tool:\"true\",soulbound:\"true\",rarity:\"common\",reap_id:\"harvesting_scythe\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# mainhand potion consume
+
+#mana potion
+execute if predicate dan.reap:potion/mainhand/holding_mana_potion store result score #ManaRegen dan.temp run data get entity @s SelectedItem.tag.mana_regen
+
+#health potion
+execute if predicate dan.reap:potion/mainhand/holding_health_potion store result score #HealthRegen dan.temp run data get entity @s SelectedItem.tag.health_regen

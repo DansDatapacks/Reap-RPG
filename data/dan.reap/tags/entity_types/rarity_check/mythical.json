@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:ender_dragon",
+      "minecraft:wither",
+      "minecraft:elder_guardian",
+
+      "minecraft:evoker",
+
+      "minecraft:husk",
+      "minecraft:stray",
+
+      "minecraft:blaze",
+      "minecraft:wither_skeleton",
+
+      "minecraft:ravager"
+    ]
+}

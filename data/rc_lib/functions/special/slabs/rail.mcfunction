@@ -1,0 +1,2 @@
+scoreboard players set y_max rc_lib.var 32
+execute unless block ~ ~ ~ #rc_lib:rails[shape=ascending_north] unless block ~ ~ ~ #rc_lib:rails[shape=ascending_south] unless block ~ ~ ~ #rc_lib:rails[shape=ascending_west] unless block ~ ~ ~ #rc_lib:rails[shape=ascending_east] run scoreboard players set y_max rc_lib.var 8

@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Ancient Waystone\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Artifact\",\"color\":\"gold\",\"italic\":false}','{\"text\":\"Use to Instantly Respawn\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"Hold Sneak and Use to set Spawnpoint\",\"color\":\"dark_gray\",\"italic\":false}']},HideFlags:63,Unbreakable:1b,CustomModelData:4150002,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"artifact\",soulbound:\"true\",rarity:\"artifact\",mana_cost:30,stamina_cost:50,tome:\"true\",tome_type:\"ancient_waystone\",reap_id:\"ancient_waystone\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

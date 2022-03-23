@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:pufferfish",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Pufferfish\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Rare\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"Crafting Item\",\"color\":\"dark_gray\",\"italic\":false}']},rarity:\"rare\",reap_id:\"pufferfish\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

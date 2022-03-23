@@ -1,0 +1,328 @@
+{
+    "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:armor/boots/hide_boots"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/leggings/hide_leggings"
+        }
+    ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/chestplate/hide_chestplate"
+        }
+      ]
+    },
+    {
+    "rolls": 1,
+    "entries": [
+      {
+        "type": "minecraft:loot_table",
+        "name": "dan.reap:armor/helmet/hide_helmet"
+      }
+     ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:armor/boots/chain_boots"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/leggings/chain_leggings"
+        }
+    ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/chestplate/chain_chestplate"
+        }
+      ]
+    },
+    {
+    "rolls": 1,
+    "entries": [
+      {
+        "type": "minecraft:loot_table",
+        "name": "dan.reap:armor/helmet/chain_helmet"
+      }
+     ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:armor/boots/iron_boots"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/leggings/iron_leggings"
+        }
+    ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/chestplate/iron_chestplate"
+        }
+      ]
+    },
+    {
+    "rolls": 1,
+    "entries": [
+      {
+        "type": "minecraft:loot_table",
+        "name": "dan.reap:armor/helmet/iron_helmet"
+      }
+     ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:armor/boots/emeraldite_boots"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/leggings/emeraldite_leggings"
+        }
+    ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/chestplate/emeraldite_chestplate"
+        }
+      ]
+    },
+    {
+    "rolls": 1,
+    "entries": [
+      {
+        "type": "minecraft:loot_table",
+        "name": "dan.reap:armor/helmet/emeraldite_helmet"
+      }
+     ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:armor/boots/bronze_boots"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/leggings/bronze_leggings"
+        }
+    ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/chestplate/bronze_chestplate"
+        }
+      ]
+    },
+    {
+    "rolls": 1,
+    "entries": [
+      {
+        "type": "minecraft:loot_table",
+        "name": "dan.reap:armor/helmet/bronze_helmet"
+      }
+     ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:armor/boots/frostmetal_boots"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/leggings/frostmetal_leggings"
+        }
+    ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/chestplate/frostmetal_chestplate"
+        }
+      ]
+    },
+    {
+    "rolls": 1,
+    "entries": [
+      {
+        "type": "minecraft:loot_table",
+        "name": "dan.reap:armor/helmet/frostmetal_helmet"
+      }
+     ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:armor/boots/steel_boots"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/leggings/steel_leggings"
+        }
+    ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/chestplate/steel_chestplate"
+        }
+      ]
+    },
+    {
+    "rolls": 1,
+    "entries": [
+      {
+        "type": "minecraft:loot_table",
+        "name": "dan.reap:armor/helmet/steel_helmet"
+      }
+     ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:armor/boots/silver_boots"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/leggings/silver_leggings"
+        }
+    ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/chestplate/silver_chestplate"
+        }
+      ]
+    },
+    {
+    "rolls": 1,
+    "entries": [
+      {
+        "type": "minecraft:loot_table",
+        "name": "dan.reap:armor/helmet/silver_helmet"
+      }
+     ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+            "type": "minecraft:loot_table",
+            "name": "dan.reap:armor/boots/obsidian_boots"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/leggings/obsidian_leggings"
+        }
+    ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/chestplate/obsidian_chestplate"
+        }
+      ]
+    },
+    {
+    "rolls": 1,
+    "entries": [
+      {
+        "type": "minecraft:loot_table",
+        "name": "dan.reap:armor/helmet/obsidian_helmet"
+      }
+     ]
+    }
+  ]
+}

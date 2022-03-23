@@ -1,0 +1,15 @@
+{
+    "values": [
+        "#dan.reap:uninteractable",
+        "minecraft:cod",
+        "minecraft:salmon",
+        "minecraft:pufferfish",
+        "minecraft:dolphin",
+        "minecraft:drowned",
+        "minecraft:elder_guardian",
+        "minecraft:guardian",
+        "minecraft:tropical_fish",
+        "minecraft:turtle",
+        "minecraft:squid"
+    ]
+}

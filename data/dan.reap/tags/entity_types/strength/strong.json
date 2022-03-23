@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:ender_dragon",
+
+      "minecraft:husk",
+      "minecraft:stray",
+
+      "minecraft:ravager",
+
+      "minecraft:cow",
+      
+      "minecraft:polar_bear",
+      "minecraft:panda",
+
+      "minecraft:zombified_piglin",
+      "minecraft:zoglin"
+    ]
+}

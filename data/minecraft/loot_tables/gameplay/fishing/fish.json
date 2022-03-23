@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:food/raw_cod",
+          "weight": 70
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:food/raw_salmon",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:item/pufferfish",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "values": [
+        "minecraft:bat",
+        "minecraft:cat",
+        "minecraft:dolphin",
+        "minecraft:enderman",
+        "minecraft:evoker",
+        "minecraft:guardian",
+        "minecraft:fox",
+        "minecraft:illusioner",
+        "minecraft:parrot",
+        "minecraft:phantom",
+        "minecraft:ravager",
+        "minecraft:squid",
+        "minecraft:villager",
+        "minecraft:pillager",
+        "minecraft:vindicator",
+        "minecraft:wandering_trader",
+        "minecraft:witch",
+        "minecraft:wither_skeleton",
+        "minecraft:iron_golem",
+        "minecraft:slime"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Set Up Camp",
+            "color": "white"
+        },
+        "description": {
+            "text": "Throw 4 Sticks On The Ground To Make A Log Stack And Throw 2 Flint On It To Spark Up A Campfire",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:campfire"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+          }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "function": "dan.reap:utility/give_loot_chest"
+    },
+    "parent": "dan.reap:adventurer/harvesting"
+}

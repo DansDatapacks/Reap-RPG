@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cooked_beef",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Cooked Beef\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Food\",\"color\":\"dark_gray\",\"italic\":false}']},stat_item:\"true\",item_type:\"food\",food:\"true\",health_regen:8,rarity:\"common\",reap_id:\"cooked_beef\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

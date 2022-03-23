@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/helmet/obsidian_helmet",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/chestplate/obsidian_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/leggings/obsidian_leggings",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dan.reap:armor/boots/obsidian_boots",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

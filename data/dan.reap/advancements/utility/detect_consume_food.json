@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"requirement": {
+		  "trigger": "minecraft:consume_item",
+		  "conditions": {
+			"item": {
+			  "nbt": "{food:\"true\"}"
+			}
+		  }
+		}
+	  },
+	"rewards":{
+	 "function": "dan.reap:item_handling/food_handling/detect_consume"}
+  }

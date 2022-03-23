@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Basic Fishing Rod\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Tool\",\"color\":\"dark_gray\",\"italic\":false}']},HideFlags:7,Unbreakable:1b,Damage:1,tool:\"true\",soulbound:\"true\",rarity:\"common\",reap_id:\"basic_fishing_rod\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

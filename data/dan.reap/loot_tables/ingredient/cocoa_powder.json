@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cocoa_beans",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Cocoa Powder\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Ingredient\",\"color\":\"dark_gray\",\"italic\":false}']},CustomModelData:4150001,rarity:\"common\",reap_id:\"cocoa_powder\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

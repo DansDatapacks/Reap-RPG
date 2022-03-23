@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sweet_berries",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Raspberries\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Uncommon\",\"color\":\"green\",\"italic\":false}','{\"text\":\"Food\",\"color\":\"dark_gray\",\"italic\":false}']},stat_item:\"true\",item_type:\"food\",food:\"true\",health_regen:2,CustomModelData:4150004,rarity:\"uncommon\",reap_id:\"raspberries\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

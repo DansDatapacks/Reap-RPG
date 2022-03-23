@@ -1,0 +1,16 @@
+{
+  "values": [
+    "#rc_lib:plants_wide",
+    "#rc_lib:plant_slabs",
+    "#rc_lib:flowers",
+    "#rc_lib:coral_walls",
+    "#rc_lib:stems",
+    "#rc_lib:attached_stems",
+    "#rc_lib:talls",
+	"minecraft:sea_pickle",
+	"minecraft:vine",
+	"minecraft:lily_pad",
+	"minecraft:cocoa",
+	"minecraft:sweet_berry_bush"
+  ]
+}

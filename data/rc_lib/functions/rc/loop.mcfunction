@@ -1,0 +1,6 @@
+execute if score x_vec rc_lib.var matches 1.. if score x_l rc_lib.var < y_l rc_lib.var if score x_l rc_lib.var < z_l rc_lib.var positioned ~1 ~ ~ run function rc_lib:rc/x/try
+execute if score x_vec rc_lib.var matches ..-1 if score x_l rc_lib.var < y_l rc_lib.var if score x_l rc_lib.var < z_l rc_lib.var positioned ~-1 ~ ~ run function rc_lib:rc/x/try
+execute if score y_vec rc_lib.var matches 1.. if score y_l rc_lib.var <= x_l rc_lib.var if score y_l rc_lib.var < z_l rc_lib.var positioned ~ ~1 ~ run function rc_lib:rc/y/try
+execute if score y_vec rc_lib.var matches ..-1 if score y_l rc_lib.var <= x_l rc_lib.var if score y_l rc_lib.var < z_l rc_lib.var positioned ~ ~-1 ~ run function rc_lib:rc/y/try
+execute if score z_vec rc_lib.var matches 1.. if score z_l rc_lib.var <= x_l rc_lib.var if score z_l rc_lib.var <= y_l rc_lib.var positioned ~ ~ ~1 run function rc_lib:rc/z/try
+execute if score z_vec rc_lib.var matches ..-1 if score z_l rc_lib.var <= x_l rc_lib.var if score z_l rc_lib.var <= y_l rc_lib.var positioned ~ ~ ~-1 run function rc_lib:rc/z/try

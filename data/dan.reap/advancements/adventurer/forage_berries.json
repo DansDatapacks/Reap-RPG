@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text": "Berries in the Bushes",
+            "color": "white"
+        },
+        "description": {
+            "text": "Consume Berries You Have Foraged To Recover Health",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:sweet_berries",
+            "nbt": "{display:{Name:'{\"text\":\"Blueberries\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Food\",\"color\":\"dark_gray\",\"italic\":false}']},CustomModelData:4150002,rarity:\"common\",reap_id:\"blueberries\"}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+          }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "function": "dan.reap:utility/give_loot_chest"
+    },
+    "parent": "dan.reap:adventurer/harvesting"
+}

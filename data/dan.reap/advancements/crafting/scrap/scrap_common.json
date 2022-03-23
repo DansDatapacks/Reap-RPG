@@ -1,0 +1,88 @@
+{
+	"criteria": {
+		"mob weapon": {
+		"trigger": "minecraft:recipe_unlocked",
+		"conditions": {
+		  "recipe": "dan.reap:scrapping_common_mob_axe"
+		}
+	  },
+		"common sword": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_common_sword"
+		  }
+		},
+		"common axe": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_common_axe"
+		  }
+		},
+		"common shield": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_common_shield"
+		  }
+		},
+		"common tome": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_tome"
+		  }
+		},
+		"common hide boots": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_common_armor_boots_hide"
+		  }
+		},
+		"common chain boots": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_common_armor_boots_chain"
+		  }
+		},
+		"common hide leggings": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_common_armor_leggings_hide"
+		  }
+		},
+		"common chain leggings": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_common_armor_leggings_chain"
+		  }
+		},
+		"common hide chestplate": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_common_armor_chestplate_hide"
+		  }
+		},
+		"common chain chestplate": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_common_armor_chestplate_chain"
+		  }
+		},
+		"common hide helmet": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_common_armor_helmet_hide"
+		  }
+		},
+		"common chain helmet": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_common_armor_helmet_chain"
+		  }
+		}
+	  },
+	"rewards": {
+		"function": "dan.reap:item_handling/loot_handling/scrap/common_queue"
+	},
+    "requirements": [
+        ["mob weapon", "common sword", "common axe", "common shield", "common tome", "common hide boots", "common chain boots", "common hide leggings", "common chain leggings", "common hide chestplate", "common chain chestplate", "common hide helmet", "common chain helmet"]
+    ]
+}

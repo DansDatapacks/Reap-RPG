@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:cave_spider",
+
+      "minecraft:chicken",
+      "minecraft:bee",
+      "minecraft:cod",
+      "minecraft:salmon",
+      "minecraft:pufferfish",
+
+      "minecraft:silverfish",
+      "minecraft:endermite",
+      "minecraft:vex"
+    ]
+}

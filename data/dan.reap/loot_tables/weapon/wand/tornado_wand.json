@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Tornado Wand\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Summon a Tornado on\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"Impact That Pulls Mobs\",\"color\":\"dark_gray\",\"italic\":false}','[{\"text\":\"\uE011\",\"color\":\"white\",\"italic\":false},{\"text\":\"-25\",\"color\":\"dark_gray\",\"italic\":false}]']},Unbreakable:1,HideFlags:63,CustomModelData:4150204,modifiable:\"true\",loot:\"true\",stat_item:\"true\",item_type:\"magic_weapon\",rarity:\"common\",tome_type:\"tornado_wand\",mana_cost:25,stamina_cost:150,damage_strength:15,tome:\"true\",reap_id:\"tome\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

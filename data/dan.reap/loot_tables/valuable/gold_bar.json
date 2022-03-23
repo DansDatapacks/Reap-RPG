@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Gold Bar\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Valuable\",\"color\":\"yellow\",\"italic\":false}']},rarity:\"valuable\",reap_id:\"gold_bar\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {
+            "text": "...or Burn it I guess",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Cooked Food For Too Long",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:light_gray_dye",
+			"nbt": "{display:{Name:'{\"text\":\"Ash\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Junk\",\"color\":\"dark_gray\",\"italic\":false}']},rarity:\"common\",reap_id:\"ash\"}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+          }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "dan.reap:valuable/gold_bar"
+        ]
+    },
+    "parent": "dan.reap:adventurer/cook_food"
+}

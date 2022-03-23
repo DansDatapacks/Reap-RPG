@@ -1,0 +1,62 @@
+{
+    "display": {
+        "title": {
+            "text": "Harvesting",
+            "color": "white"
+        },
+        "description": {
+            "text": "Gather At Least 4 Sticks And 2 Flint From Grasses And Leaves",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:iron_hoe",
+			"nbt": "{CanDestroy:[\"#dan.reap:harvestable\"],display:{Name:'{\"text\":\"Harvesting Scythe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Tool\",\"color\":\"dark_gray\",\"italic\":false}']},HideFlags:63,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\",Amount:0.5,Operation:0,UUIDLeast:562800,UUIDMost:994797},{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:1,Operation:0,UUIDLeast:881343,UUIDMost:132447}],CustomModelData:4150001,tool:\"true\",soulbound:\"true\",rarity:\"common\",reap_id:\"harvesting_scythe\"}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "flint": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:flint",
+                        "count": {
+                            "min": 2,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        },
+        "stick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stick",
+                        "count": {
+                            "min": 4,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "flint"
+        ],
+        [
+            "stick"
+        ]
+    ],
+    "rewards": {
+        "function": "dan.reap:utility/give_loot_chest"
+    },
+    "parent": "dan.reap:adventurer/adventurer_root"
+}

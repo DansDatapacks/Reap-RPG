@@ -1,0 +1,12 @@
+{
+  "values": [
+    "#rc_lib:stairs",
+    "#rc_lib:doors",
+    "#rc_lib:trapdoors",
+    "#rc_lib:fence_gates",
+    "#rc_lib:chests",
+    "#rc_lib:beds",
+    "#rc_lib:torches",
+    "#rc_lib:wall_torches"
+  ]
+}

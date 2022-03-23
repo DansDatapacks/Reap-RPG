@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#rc_lib:saplings",
+    "#rc_lib:shrubs",
+    "#rc_lib:corals",
+    "#rc_lib:coral_fans",
+	"minecraft:sugar_cane",
+	"minecraft:tall_seagrass"
+  ]
+}

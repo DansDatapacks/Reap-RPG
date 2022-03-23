@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"mythical sword": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_mythical_sword"
+		  }
+		},
+		"mythical axe": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_mythical_axe"
+		  }
+		}
+	  },
+	"rewards": {
+		"function": "dan.reap:item_handling/loot_handling/scrap/mythical_queue"
+	},
+    "requirements": [
+        ["mythical sword", "mythical axe"]
+    ]
+}

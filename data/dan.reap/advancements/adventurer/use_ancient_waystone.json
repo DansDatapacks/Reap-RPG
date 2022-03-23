@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text": "When In Trouble, Teleport",
+            "color": "white"
+        },
+        "description": {
+            "text": "Use The Ancient Waystone To Teleport Back To Your Spawnpoint",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+			"nbt": "{display:{Name:'{\"text\":\"Ancient Waystone\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Artifact\",\"color\":\"gold\",\"italic\":false}','{\"text\":\"Use to Instantly Respawn\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\"Hold Sneak and Use to set Spawnpoint\",\"color\":\"dark_gray\",\"italic\":false}']},HideFlags:63,Unbreakable:1b,CustomModelData:4150002,loot:\"true\",stat_item:\"true\",item_type:\"artifact\",soulbound:\"true\",rarity:\"artifact\",mana_cost:30,stamina_cost:50,tome:\"true\",tome_type:\"ancient_waystone\",reap_id:\"ancient_waystone\"}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+          }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "function": "dan.reap:utility/give_loot_chest"
+    },
+    "parent": "dan.reap:adventurer/adventurer_root"
+}

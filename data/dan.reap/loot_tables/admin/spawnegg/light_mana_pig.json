@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chicken_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Light Mana Pig Spawner\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Place to spawn Light Mana spawner\",\"color\":\"dark_gray\",\"italic\":false}']},CustomModelData:4150001,EntityTag:{NoGravity:1b,Silent:1b,Invulnerable:1b,CustomNameVisible:0b,PersistenceRequired:1b,NoAI:1b,Tags:[\"dan.spawner\",\"dan.mob_spawner\",\"dan.light_mana_aec\",\"dan.pig_spawner\",\"dan.editManaCrystal\",\"global.ignore\"],ActiveEffects:[{Id:14b,Amplifier:2b,Duration:2000000,ShowParticles:0b}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

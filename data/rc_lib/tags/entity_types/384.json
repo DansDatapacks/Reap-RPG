@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#rc_lib:blaze",
+    "#rc_lib:cat",
+    "#rc_lib:skeleton",
+    "#rc_lib:zombie",
+    "minecraft:creeper",
+    "minecraft:enderman",
+    "minecraft:wolf"
+  ]
+}

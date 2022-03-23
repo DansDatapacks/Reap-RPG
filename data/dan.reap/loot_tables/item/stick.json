@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Stick\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Can be used to build a fire and in crafting\",\"color\":\"dark_gray\",\"italic\":false}']},rarity:\"common\",reap_id:\"stick\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

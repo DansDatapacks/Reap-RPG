@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"fabled sword": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_fabled_sword"
+		  }
+		},
+		"fabled axe": {
+		  "trigger": "minecraft:recipe_unlocked",
+		  "conditions": {
+			"recipe": "dan.reap:scrapping_fabled_axe"
+		  }
+		}
+	  },
+	"rewards": {
+		"function": "dan.reap:item_handling/loot_handling/scrap/fabled_queue"
+	},
+    "requirements": [
+        ["fabled sword", "fabled axe"]
+    ]
+}

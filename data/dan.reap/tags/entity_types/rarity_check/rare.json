@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:spider",
+      "minecraft:vex",
+
+      "minecraft:cow",
+      
+      "minecraft:pufferfish",
+
+      "minecraft:witch",
+      "minecraft:illusioner",
+      "minecraft:evoker",
+      
+      "minecraft:husk",
+      "minecraft:stray",
+
+      "minecraft:wither_skeleton",
+      "minecraft:blaze",
+
+      "minecraft:zombified_piglin"
+    ]
+}

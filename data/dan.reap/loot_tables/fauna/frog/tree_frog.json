@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:white_dye",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Tree Frog\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Common\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Ingredient\",\"color\":\"dark_gray\",\"italic\":false}']},CustomModelData:4150201,rarity:\"common\",reap_type:\"frog\",reap_id:\"tree_frog\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#rc_lib:block",
+    "#rc_lib:cube",
+    "#rc_lib:minecart",
+    "#rc_lib:projectile_medium",
+    "#rc_lib:projectile_tiny",
+    "#rc_lib:slime"
+  ]
+}

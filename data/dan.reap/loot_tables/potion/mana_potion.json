@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Mana Potion\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Uncommon\",\"color\":\"green\",\"italic\":false}','[{\"text\":\"\uE011\",\"color\":\"white\",\"italic\":false},{\"text\":\"+35\",\"color\":\"dark_gray\",\"italic\":false}]']},Potion:\"minecraft:thick\",HideFlags:63,Enchantments:[{id:\"minecraft:protection\",lvl:1s}],CustomPotionColor:10036395,stat_item:\"true\",item_type:\"potion\",potion:\"true\",potion_type:\"mana\",mana_regen:35b,rarity:\"uncommon\",reap_id:\"mana_potion\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:stone_sword"
+        }
+    ],
+    "result": {
+        "item": "minecraft:structure_void",
+        "count": 1
+    },
+    "group": "Scrap"
+}

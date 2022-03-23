@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CanPlaceOn:[\"#dan.reap:placeable\"],HideFlags:48,display:{Name:'{\"text\":\"Village Settlement Banner\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Place to found a Village\",\"color\":\"dark_gray\",\"italic\":false}']},EntityTag:{NoGravity:1b,Invulnerable:1b,CustomNameVisible:0b,Tags:[\"dan.landmarks_village_spawner\",\"global.ignore\"]},CustomModelData:4150001,\"soulbound\":\"true\",\"reap_id\":\"village_landmark_spawner\"}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

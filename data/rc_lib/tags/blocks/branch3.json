@@ -1,0 +1,14 @@
+{
+  "values": [
+    "#rc_lib:middle_cube",
+    "minecraft:end_rod",
+    "minecraft:grindstone",
+    "minecraft:bell",
+    "minecraft:lantern",
+    "minecraft:lectern",
+    "minecraft:turtle_egg",
+    "minecraft:cake",
+    "minecraft:brewing_stand",
+    "minecraft:cauldron"
+  ]
+}

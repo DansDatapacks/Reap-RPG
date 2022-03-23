@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#rc_lib:panes",
+    "#rc_lib:fences",
+    "#rc_lib:walls",
+	"minecraft:chorus_plant"
+  ]
+}
